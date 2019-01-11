@@ -1,0 +1,98 @@
+[
+  {
+    "id": "d9e97f1a-c00d-4cd2-8516-0bf15b50b99e",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "king",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547104187
+  },
+  {
+    "id": "8d17fd2d-d0fd-4a06-8061-ae00d35487bb",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "queen",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " sized room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547104187
+  },
+  {
+    "id": "3e16c89b-c9b6-48d8-9232-a1d094a3b53c",
+    "data": [
+      {
+        "text": "Book a room in ",
+        "userDefined": false
+      },
+      {
+        "text": "New York",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547104187
+  },
+  {
+    "id": "758c9ac3-ca59-405e-aad1-fd70d4186bd0",
+    "data": [
+      {
+        "text": "Book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547104187
+  }
+]

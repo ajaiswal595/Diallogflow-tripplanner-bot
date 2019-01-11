@@ -1,0 +1,126 @@
+[
+  {
+    "id": "030fb19e-78a1-4817-963a-b00c434bb338",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "convertible",
+        "alias": "car_type",
+        "meta": "@car_type",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Seattle",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547105353
+  },
+  {
+    "id": "9496b95f-6ca3-473a-9295-5ca2c361e09a",
+    "data": [
+      {
+        "text": "Reserve a ",
+        "userDefined": false
+      },
+      {
+        "text": "sedan",
+        "alias": "car_type",
+        "meta": "@car_type",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on December 10th,2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547105353
+  },
+  {
+    "id": "564d1578-8b82-486a-858f-33e54c8623a0",
+    "data": [
+      {
+        "text": "Reserve a car in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547105353
+  },
+  {
+    "id": "4876a247-b4b6-4d54-bad0-b46cae6ff102",
+    "data": [
+      {
+        "text": "Book a car in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547105353
+  },
+  {
+    "id": "e2faef18-8bf0-4f67-accf-e8f50db26e41",
+    "data": [
+      {
+        "text": "Book a car",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547105353
+  }
+]

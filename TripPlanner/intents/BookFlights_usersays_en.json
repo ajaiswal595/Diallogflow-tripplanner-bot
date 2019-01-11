@@ -1,0 +1,152 @@
+[
+  {
+    "id": "f83f8c3d-3c8b-493a-9b35-e1a0b627a644",
+    "data": [
+      {
+        "text": "Non-stop",
+        "alias": "flight_type",
+        "meta": "@flight_type",
+        "userDefined": false
+      },
+      {
+        "text": " flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Gorakhpur",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on April 12 2019",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547103530
+  },
+  {
+    "id": "cfb7d862-7d74-4fcc-b19d-58c195c3e5f4",
+    "data": [
+      {
+        "text": "Book a flight from Hyderabad to ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on November 20th 2019",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547103530
+  },
+  {
+    "id": "ac0936fc-c29c-4395-b0d1-11c3e04de8a6",
+    "data": [
+      {
+        "text": "Reserve a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "next Tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547103530
+  },
+  {
+    "id": "940a4269-2a56-450a-8c2e-43b210038e95",
+    "data": [
+      {
+        "text": "Book a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547103530
+  },
+  {
+    "id": "f542b248-9e71-42f2-8d70-b4930af0f839",
+    "data": [
+      {
+        "text": "Book a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "November 20th,2018",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547103530
+  },
+  {
+    "id": "d8790119-8485-4b8e-aec4-8eae6955a5fc",
+    "data": [
+      {
+        "text": "Book flight tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547103530
+  },
+  {
+    "id": "ce1c322f-f018-46c5-8fe2-65e36797f09f",
+    "data": [
+      {
+        "text": "Book a flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547103530
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "id": "485b9b6b-2487-4ac7-8184-a7b64851b8d1",
+  "name": "BookFlights",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.bookFlights",
+      "affectedContexts": [
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "BookFlights-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "212a515a-4cc9-4f6c-ae58-a4727323233f",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "01bfb8a9-587a-4018-b8aa-b1b217c5c798",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where are you flying from?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "bc15b0dc-9000-4847-8fa2-af0183bf62a0",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where are you flying to ?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s your destination?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "7c571c4a-4109-455e-b736-11b7f6733803",
+          "required": false,
+          "dataType": "@flight_type",
+          "name": "flight_type",
+          "value": "$flight_type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Done! I\u0027ve booked your flight tickets to $date from $geo-city to $geo-city1"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1547116395,
+  "fallbackIntent": false,
+  "events": []
+}

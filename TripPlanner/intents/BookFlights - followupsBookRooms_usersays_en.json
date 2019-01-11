@@ -1,0 +1,24 @@
+[
+  {
+    "id": "6b170407-bcef-40de-a596-a78b80e028ea",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "deluxe",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547111442
+  }
+]

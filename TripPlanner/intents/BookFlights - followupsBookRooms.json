@@ -1,0 +1,58 @@
+{
+  "id": "416aeda4-8b58-4aa5-9e14-db40db92805f",
+  "parentId": "485b9b6b-2487-4ac7-8184-a7b64851b8d1",
+  "rootParentId": "485b9b6b-2487-4ac7-8184-a7b64851b8d1",
+  "name": "BookFlights - followupsBookRooms",
+  "auto": true,
+  "contexts": [
+    "flight_context",
+    "BookFlights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights.followupsBookRooms",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d69d6a66-1c36-4ba9-9cc0-3f1e49fa0a85",
+          "dataType": "@room_type",
+          "name": "room_type",
+          "value": "$room_type",
+          "isList": false
+        },
+        {
+          "id": "d34348ac-8a64-4c51-9f75-688693d69912",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [],
+          "defaultValue": "#flight_context.date"
+        },
+        {
+          "id": "9e5fd844-99d2-4528-b844-3acc86f5d738",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Reserved a room for you in $geo-city on $date"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1547111442,
+  "fallbackIntent": false,
+  "events": []
+}

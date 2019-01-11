@@ -1,0 +1,74 @@
+{
+  "id": "b9bc5009-d49c-43c0-9095-51854da632ba",
+  "name": "BookCars",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.bookCars",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "23ed6364-7ba8-4995-9a77-879defcc610b",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which city do you need this booking for?"
+            }
+          ],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "76bf8563-b6f3-49c8-adb0-e90bd393fcc7",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What date do you want the car?"
+            }
+          ],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "de413d9d-8430-448a-ab71-08a0f3ce0892",
+          "required": true,
+          "dataType": "@car_type",
+          "name": "car_type",
+          "value": "$car_type",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of car do you want ? I have sedans, convertibles, hatchbacks, SUVs and compacts."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A $car_type has been reserved for you in $geo-city on $date"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1547116380,
+  "fallbackIntent": false,
+  "events": []
+}
