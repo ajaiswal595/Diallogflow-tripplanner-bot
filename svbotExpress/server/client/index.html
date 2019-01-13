@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <script type="text/javascript" data-main="./scripts/chat-app/main" src="./scripts/resources/requirejs/require.js"></script>
+    <link rel="stylesheet" type="text/css" href="./scripts/resources/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./scripts/resources/AngularJS-Toaster/toaster.min.css" />
+</head>
+
+<body id='chat-app' class="container-fluid">
+    <div ng-controller="chatController">
+            <div>
+        
+        <div>
+            
+        <input ng-model="clienttoken" placeholder="enter clienttoken">
+        </div>
+        <div >
+            <input ng-model="msg">
+            <button ng-click="send()">Send</button>
+            
+            <h1>{{result.data.result.fulfillment.speech}}</h1>
+        </div>
+ 
+            </div>
+        <div>
+            <div ui-view></div>
+        </div>      
+    </div>
+    <toaster-container></toaster-container>
+
+
+
+</body>
+
+</html>
